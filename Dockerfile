@@ -23,9 +23,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the rest of the application code into the container
 COPY . .
 
-# Set environment variable for GCP credentials
-ENV GOOGLE_APPLICATION_CREDENTIALS=/app/tools/key.json
-
 # Expose the port FastAPI listens on
 EXPOSE 8080
 

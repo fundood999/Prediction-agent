@@ -74,7 +74,7 @@ first_agent = LlmAgent(
     Your input will be something like this :
     Access the {geocode} to get the source and destination and get the directions.
     Use the tool `maps_directions` tool to generate directions from a given source to a specified destination.
-    Extract and list all place names, street names, and major landmarks encountered along the route.
+    Extract and list all place names, street names, along the route.
     """,
     tools=[
         MCPToolset(
